@@ -1,23 +1,15 @@
-.a, .b {
-    background-color: black;
+.flex_cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    gap: 10px;
+    min-height: 100vh;
 }
 
-.a {
-    color:white
-}
-
-.b {
-    color: red;
-
-}
-
-.a .unique {
-    font-size: 50px;
-    background-color: white;
-    color: black;
-}
-
-.whatever {
-    padding: 5px;
-    background-color: red;
+.box {
+    background-color: lightcoral;
+    padding: 20px;
+    flex-grow: 1;
+    height: 100px;
 }
